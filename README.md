@@ -59,7 +59,10 @@ httpd.serve_forever()
   ## OUTPUT:
 
 
-  ![Screenshot 2023-10-14 085447](https://github.com/22003197/simplewebserver/assets/124332243/8c546a93-9d60-4e79-8e5d-91236dc183bf)
+  ![image](https://github.com/22003197/simplewebserver/assets/124332243/f6712453-c37c-43f2-809e-84643706ce66)
+  ![image](https://github.com/22003197/simplewebserver/assets/124332243/042c2a18-f653-422b-9635-bba78ba09169)
+
+
 
 
 
