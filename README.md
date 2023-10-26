@@ -27,15 +27,16 @@ content = """
 <!DOCTYPE html>
 <html>
 <head>
-<title>My webserver</title>
+<title>Top 5 Revenue Company</title>
 </head>
 <body>
-<h1><u>Languages used in Web Development</u><h1>
+<h1><u>Top 5 Revenue Company</u><h1>
 <ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>Bootstrap</li>
+<li>Apple</li>
+<li>Microsoft</li>
+<li>Mi</li>
+<li>BlueBerry</li>
+<li>Google</li>
 </body>
 </html>
 """
@@ -46,13 +47,9 @@ class myhandler(BaseHTTPRequestHandler):
         self.send_header('content-type', 'text/html; charset=utf-8')
         self.end_headers()
         self.wfile.write(content.encode())
-        
-server_address = ('',80)
-
+server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
-
 print("my webserver is running...")
-
 httpd.serve_forever()
 '''
   
